@@ -30,6 +30,7 @@ Fig. 3 Proposed framework for image augmentation including GAN-based augmentatio
 segmentation.
 
 Example of stone-inpainting results
+
 <a href="https://ibb.co/z6GzvXJ"><img src="https://i.ibb.co/xFJNT1H/g-sc-1-g-sc-2-g-sf.png" alt="g-sc-1-g-sc-2-g-sf" border="0"></a>
 
 Fig. 4 Illustrations in columns 1-3 show original cropped Isf images, cropped $I_{sf}$  with random stone masks, and $G(I_{sf})$ results from the stone-free
