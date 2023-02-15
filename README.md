@@ -22,7 +22,7 @@ $$ {\mathcal{L}_{total} = \lambda}_{1}  \mathcal{L}_{adv} + {\lambda}_{2} \mathc
 where $\lambda$1, $\lambda$2, and $\lambda$3 represent the contributions of adversarial loss, L1 loss, and content loss, respectively. 
 
 
-## APPLICATION : STON-SYNTHESIS AUGMENTATION IN ABDOMINAL-XRAY IMAGES
+## APPLICATION : STONE-SYNTHESIS AUGMENTATION IN ABDOMINAL-XRAY IMAGES
 
 <a href="https://ibb.co/64J8Twt"><img src="https://i.ibb.co/zSHFBx2/datagen-pipeline4.png" alt="datagen-pipeline4" border="0"></a>
 
