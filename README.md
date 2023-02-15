@@ -5,7 +5,7 @@ We provided two main files:
 - generate_test.py : testing stone inpainting
 
 ## DATASET
-![alt text](href="https://ibb.co/rfvRwvj"><img src="https://i.ibb.co/5x2gR20/inpaint-dataset-example.png" alt="inpaint-dataset-example") 
+<a href="https://ibb.co/rfvRwvj"><img src="https://i.ibb.co/5x2gR20/inpaint-dataset-example.png" alt="inpaint-dataset-example" border="0"></a>
 
 Fig1. Illustration of cropped urinary stone images and theircorresponding images with stone masks Ms in the image’s center (columns 1-3), as well as cropped non-stone images and thecorresponding images with non-stone masks Mns in the image’s center (columns 4-6).
 
