@@ -19,17 +19,17 @@ The first part of the cascaded U-Net model was trained with only $\mathcal{L}_{L
 
 $$ {\mathcal{L}_{total} = \lambda}_{1}  \mathcal{L}_{adv} + {\lambda}_{2} \mathcal{L}_{L1} + {\lambda}_{3} \mathcal{L}_{content} $$
 
-where $\lambda$1, $\lambda$2, and $\lambda$3 represent the contributions of adversarial loss, L1 loss, and content loss, respectively. 
-
 
 ## APPLICATION : STONE-SYNTHESIS AUGMENTATION IN ABDOMINAL-XRAY IMAGES
+We used a GAN-based inpainting model for creating synthetic images based on stone and non-stone mask inputs in order to improve the segmentation
+network’s performance by increasing the number and diversity of training data. The synthetic training images were generated from stone-contained images and stone-free images using existing stone ground truth and corresponding stone location maps, respectively. 
 
 <a href="https://ibb.co/64J8Twt"><img src="https://i.ibb.co/zSHFBx2/datagen-pipeline4.png" alt="datagen-pipeline4" border="0"></a>
 
 Fig. 3 Proposed framework for image augmentation including GAN-based augmentation and classic augmentation techniques for urinary stone
 segmentation.
 
-## EXAMPLE OF STONE INPAINTING RESULTS
+Example of stone-inpainting results
 <a href="https://ibb.co/z6GzvXJ"><img src="https://i.ibb.co/xFJNT1H/g-sc-1-g-sc-2-g-sf.png" alt="g-sc-1-g-sc-2-g-sf" border="0"></a>
 
 Fig. 4 Illustrations in columns 1-3 show original cropped Isf images, cropped $I_{sf}$  with random stone masks, and $G(I_{sf})$ results from the stone-free
