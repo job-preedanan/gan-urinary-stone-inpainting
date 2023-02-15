@@ -5,7 +5,7 @@ We provided two main files:
 - generate_test.py : testing stone inpainting
 
 ## DATASET
-![alt text]([https://photos.app.goo.gl/yY97xC4Dw3GteR6K8](https://photos.app.goo.gl/8SdUJBDmKnzszgae9))
+![alt text](https://ibb.co/rfvRwvj)
 Fig1. Illustration of cropped urinary stone images and theircorresponding images with stone masks Ms in the image’s center (columns 1-3), as well as cropped non-stone images and thecorresponding images with non-stone masks Mns in the image’s center (columns 4-6).
 
 This code is the part of the following paper:
