@@ -40,4 +40,4 @@ augmentation are shown in columns 4-6, and 7-9, respectively.
 This code is the part of the following paper:
 > W. Preedanan et al., "Improvement of Urinary Stone Segmentation Using GAN-Based Urinary Stones Inpainting Augmentation," in IEEE Access, vol. 10, pp. 115131-115142, 2022
 
-The paper can be accessed at https://ieeexplore.ieee.org/abstract/document/9933448
+The paper can be accessed online via https://ieeexplore.ieee.org/abstract/document/9933448
